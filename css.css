@@ -1,0 +1,114 @@
+@font-face {
+    font-family: JK Abode;
+    src: url(/font/JKAbode-LightDemo.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 80%;
+    height: 650px;
+    background-color: #27262C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+}
+
+.box > h1{
+    padding-top: 30px;
+color: var(--withe, #FFF);
+text-align: start;
+/* titel */
+font-family: JK Abode;
+font-size: 96px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.box > input{
+    width: 301px;
+    background: var(--black, #27262C);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #FFF;
+    padding: 10px;
+
+color: var(--graye, #999);
+/* subtitel */
+font-family: IRANSansXFaNum;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;   
+}
+
+.box > button{
+color: var(--withe, #FFF);
+font-family: IRANSansXFaNum;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: inline-flex;
+padding: 10px 130px;
+align-items: flex-start;
+gap: 10px;
+border: none;
+background: var(--praimery, #4044ED);
+}
+
+.imge_one{
+position: absolute;
+left: 0px;
+}
+
+.imge_tow{
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+
+}
+.imge_thre{
+    position: absolute;
+    right: -1px;
+    /* left: 10px; */
+    bottom: 1px;
+
+}
+
+.imge_four{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;   
+}
+
+.imge_five{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
